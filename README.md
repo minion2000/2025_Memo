@@ -48,4 +48,4 @@
 
 ## ツール
 
-- Markdownを扱うとき、
+- Markdownを扱うとき、Typora
