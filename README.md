@@ -49,4 +49,4 @@
 ## ツール
 
 - Markdownを扱うとき、Typora
-- Textを扱うとき、
+- Textを扱うとき、サクラエディタ
