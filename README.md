@@ -49,3 +49,4 @@
 ## ツール
 
 - Markdownを扱うとき、Typora
+- Textを扱うとき、
