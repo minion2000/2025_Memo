@@ -9,6 +9,8 @@
   - [扱う情報](#扱う情報)
   - [ツール](#ツール)
   - [画像コピペ設定](#画像コピペ設定)
+    - [最初](#最初)
+    - [images](#images)
   - [Markdown とテキストファイルの使い分け](#markdown-とテキストファイルの使い分け)
     - [Markdown](#markdown)
     - [テキストファイル](#テキストファイル)
@@ -87,13 +89,32 @@
 
 ## 画像コピペ設定
 
+### 最初
+
 ```json
   "markdown.copyFiles.destination": {
     "**/*": "./Assets/"
   }
 ```
 
-![alt text](Assets/image.png)
+はじめは、この設定を使っていたが、Typora で`./assets`に画像を保存するように設定していた。VSCode で、`./Assets`で保存するようにしていた。  
+でも、windows ではフォルダの大文字小文字を区別しないが、GitHub では大文字と小文字を区別するため、画像が正しく表示されなかった。
+
+![alt text](images/image.png)
+
+![alt text](assets/image.png)
+
+そこで、新しい設定を作成した。
+
+### images
+
+```json
+  "markdown.copyFiles.destination": {
+    "**/*": "./images/"
+  }
+```
+
+assets は typora で VSCode は images で使う。
 
 ## Markdown とテキストファイルの使い分け
 
