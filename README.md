@@ -88,12 +88,12 @@
 ## 画像コピペ設定
 
 ```json
-  "markdown.copyFiles.destination": {
-
-    "**/*": "./Assets/"
-
-  }
+  "markdown.copyFiles.destination": {
+    "**/*": "./Assets/"
+  }
 ```
+
+![alt text](Assets/image.png)
 
 ## Markdown とテキストファイルの使い分け
 
